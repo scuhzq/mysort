@@ -34,7 +34,7 @@ public class MyQuickSort {
             }
         }
         //将基准与右边的j交换
-        swap(A, low, i);
+        swap(A, low, j);
         quickSort(A, low, j - 1);
         quickSort(A, j + 1, high);
     }
